@@ -1,0 +1,12 @@
+A1 = [3,1,2;6,3,4;3,1,5];
+b1 = [0,1,3];
+[L1,U1,x1] = luFactor2(A1, b1);
+display(L1);
+display(U1);
+display(x1);
+A2 = [4,2,0;4,4,2;2,2,3];
+b2 = [2,4,6];
+[L2,U2,x2] = luFactor2(A2, b2);
+display(L2);
+display(U2);
+display(x2);
