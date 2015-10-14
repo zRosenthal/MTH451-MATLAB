@@ -1,5 +1,5 @@
 
-function [ A,b ] = sparseBuilder( n )
+function [ A,b ] = sparseBuilder1( n )
 %SPARSEBUILDER Summary of this function goes here
 %   Detailed explanation goes here
 e = ones(n,1);
